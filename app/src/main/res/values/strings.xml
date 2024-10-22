@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WeatherAppUsingCompose</string>
+    <string name="weatherApiKey">1a008f09d9c43c7d7ef7061b96b610eb</string>
+</resources>
