@@ -1,5 +1,5 @@
 package com.example.weatherappusingcompose.ui.data.models
 
 data class Clouds(
-    val all: Int
+    var all: Int? = null
 )

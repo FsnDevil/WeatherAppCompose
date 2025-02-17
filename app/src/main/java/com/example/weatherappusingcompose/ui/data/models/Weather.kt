@@ -1,8 +1,8 @@
 package com.example.weatherappusingcompose.ui.data.models
 
 data class Weather(
-    val description: String,
-    val icon: String,
-    val id: Int,
-    val main: String
+  var id: Int? = null,
+  var main: String? = null,
+  var description: String? = null,
+  var icon: String? = null
 )

@@ -1,7 +1,7 @@
 package com.example.weatherappusingcompose.ui.data.models
 
 data class Wind(
-    val deg: Int,
-    val gust: Double,
-    val speed: Double
+    var speed: Double? = null,
+    var deg: Int? = null,
+    var gust: Double? = null
 )
